@@ -1,0 +1,173 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #161517
+    ;
+    font-size: 50px;
+    margin: 50px auto 0 auto;
+    font-family: 'Amaranth', sans-serif;
+}
+
+h3{
+    color: #161517
+    ;
+    font-size: 40px;
+    margin: 15px auto 0 auto;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+h5{
+    color: #6e21fc;
+    margin: 50px auto 0 auto;
+    font-size:22px;
+    font-family: 'Dancing Script', cursive;
+ 
+    font-family: 'Roboto Slab', serif;
+}
+
+
+  h2{
+     color: #6e21fc;
+     margin: 50px auto 0 auto;
+     font-size:37px;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Roboto Slab', serif;
+}
+h4{
+    color:#ff8945;
+    position: relative;
+     font-size:30px;
+     font-family: 'Amaranth', sans-serif;
+     bottom:125px;
+}
+.top{
+    background-color: #E4F9F5;
+    max-height: 604px;
+   position: relative;
+   padding-top: 100px;
+}
+#internet{
+   max-width:180px;
+   max-height: 140px;
+   position: absolute;
+   right: 130px;
+   top: 30px;
+  
+}
+#web{
+    max-width:180px;
+    max-height: 140px;
+    position:absolute;
+    left: 130px;
+    bottom:200px;
+ }
+
+.middle{
+    padding-top:100px; 
+    color: #40514E;
+}
+.profile{
+        width: 200px;
+        height: 200px;
+        margin-top: 120px;
+}
+.hero{
+
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom:30px;
+    align-content: center;
+    
+}
+p{
+    font-size: 18px;;
+    font-family: 'Inconsolata', monospace;
+}
+hr{
+    border-top:7px dotted #ff8945;
+    width: 90px;
+    margin: 50px auto;
+}
+.skillno1{
+    width: 600px;
+    margin: 50px auto 0px auto;
+    text-align: center;  
+    line-height: 30px;
+
+}
+
+.para{
+    width: 780px;
+    margin: 50px auto 50px auto;
+    line-height: 30px;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    text-decoration: none;
+    color: #eaf6f6;
+    font-size: 18px;
+    margin: 0px 30px;
+}
+.links:hover{
+        color:#08ff0c
+        ;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    right:5px ;
+}
+.copyright{
+    margin-top: 30px;
+    color: #eaf6f6;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ----------------------Button Design------------------------ */
+.myButton {
+
+
+    
+	box-shadow: 7px 7px 15px -5px  #161517 100%);
+	background:linear-gradient(to bottom,   #6975ff  5%,  #161517 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:12px 27px;
+	text-decoration:none;
+
+    transition: 200ms ease-in;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.myButton:hover {
+    transform: scale(1.1);
+   
+    background:linear-gradient(to bottom, #6975ff 5%, #6975ff 100%);
+
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom{
+   
+        width:98.9vw;
+        height: 90px;
+        padding: 50px 0px 20px;
+        background:#6e21fc;;
+}
