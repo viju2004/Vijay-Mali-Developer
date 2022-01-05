@@ -21,12 +21,54 @@
 
     <link rel="icon" href="favicon.ico">
     <title>Vijay Mali | Developer</title>
+    <script>
+        document.addEventListener('contextmenu', 
+        event => event.preventDefault());
+        
+        function check_empty() {
+        if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+        alert("Fill All Fields !");
+        } 
+        else {
+        document.getElementById('form').submit();
+        alert("Form Submitted Successfully...");
+        }
+        }
+        //Function To Display Popup
+        function div_show() {
+        document.getElementById('abc').style.display = "block";
+        }
+        //Function to Hide Popup
+        function div_hide(){
+        document.getElementById('abc').style.display = "none";
+        }
+
+
+    </script>
+     
 </head>
 
-<body>
+<body onload="div_hide()">
+            </div>
+            <div id="abc">
+            <!-- Popup Div Starts Here -->
+            <div id="popupContact">
+            <!-- Contact Us Form -->
+            <form action="#" id="form" method="post" name="form">
+            <img id="close" src="cross.png" onclick ="div_hide()">
+            <font id="para" style=" font-family: 'Dancing Script', cursive; font-family: 'Roboto Slab', serif; font-size:20px; color:white">Contact Us</font>
+            <input id="name" name="name" placeholder="Name" type="text" style="border-radius: 8px;color:white;border-color: rgb(255, 255, 255) ;background:#5a555e;" >
+            <input id="email" name="email" placeholder="Email" type="text" style="border-radius: 8px;color:white;border-color: rgb(255, 255, 255);background:#5a555e;">
+            <textarea id="msg" name="message" placeholder="Message" style="border-radius: 8px ;  color:white; border-color: rgb(255, 255, 255);background:#5a555e;"></textarea>
+
+            <button class="myButton" onclick="check_empty()">Convey</button>
+            </form>
+            </div>
+            </div>
+
     <div class="top">
         <img id="internet" src="internet.png" alt="cloud">
-        <h1>Hi, I’m Vijay. </h1>
+        <h1>Hi, I’m Vijay </h1>
            <h3> Nice to meet you. </h3> 
         <h5>I design and code beautifully simple things, and I love what I do.
         </h5>
@@ -40,21 +82,16 @@
     </div>
 
 
-
-
     <div class="mid">
 
         <img class="profile" src="ss.svg" alt="profile">
-  <br>
+        <br>
     
 
         <h2>Hello.</h2>
 
         <p>Student of Government Polytechnic Miraj</em></p>
         <p>I am an Web Developer .</p>
-
-
-
 
         <hr>
         <h2>Skills</h2>
@@ -68,24 +105,18 @@
 
         </div>
 
-
-
-
-
-
-
-
-
         <hr>
         <h2>Get in Touch</h2>
 
          <br>
 
-        <a class="myButton"  href="mailto:vijay1172004@gmail.com">Say Hello</a>
-    
+        <!-- <a class="myButton"  href="mailto:vijay1172004@gmail.com">Say Hello</a> -->
+        <!-- <a class="myButton"  href="Exam Form.html">Say Hello</a> -->
+        <!-- <a class="myButton" >Say Hello</a> -->
+        <!-- <input type="button" value="Say Hello" id="b1" onclick="contact()" style="position: relative; top : 65px ; left : 250px" > -->
+         <button value="Say Hello" class="myButton" onclick="div_show()">Say hello
+         </button>
     </div>
-
-
 
     <div class="bottom">
         <a class="links" href="https://github.com/viju2004"> <img class="logo"src="github.png" alt="insta"> GitHub</a>
@@ -95,5 +126,4 @@
         <p class="copyright">© 2021 Vijay Mali .</p>
     </div>
 </body>
-
 </html>

@@ -1,0 +1,34 @@
+.branch{
+    position:relative;
+    top : 50px;
+    display :flex;
+    flex-direction: row;
+    left : 200px;
+    }
+    .main{
+        margin:auto;
+        margin-top:1%;
+      
+        width: 580px;
+        height: 380px;
+    
+        background:#5a555e;
+      
+        /* background:  #6975ff; */
+    border-radius: 20px;
+    
+    }
+    .top{
+
+        margin:auto;
+        margin-top:2%;
+      
+        width: 400px;
+        height: 50px;
+        background:#302c2c;
+        
+        
+    border-radius: 20px;
+    
+
+    }

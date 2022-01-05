@@ -1,0 +1,71 @@
+<html>
+	<head>
+        <link rel="stylesheet" href="contact.css">
+			<script>
+								
+								document.body.style.color="white"
+								document.body.style.background="#9f81f7"
+							
+                                 function check()
+                                {
+                                    var emailreg=/\w+[.]?\w+[@]\w+[.]?\w+[.]\w/ 
+                                    var res=emailreg.test(document.getElementById("t6").value);
+                                    var namereg1=/[a-zA-Z]/ 
+                                    var res1=namereg1.test(document.getElementById("t1").value);
+                                    var namereg2=/\d/ 
+                                    var res2=namereg2.test(document.getElementById("t2").value);
+                                    var namereg2=/\d/ 
+                                    var res3=namereg2.test(document.getElementById("t3").value);
+                                    var namereg2=/\d/ 
+                                    var res4=namereg2.test(document.getElementById("t7").value);
+                                    var namereg2=/\d/ 
+                                    var res5=namereg2.test(document.getElementById("t8").value)
+                                    var namereg2=/\d/ 
+                                    var res6=namereg2.test(document.getElementById("t9").value)
+                                    var namereg2=/\d/ 
+                                    var res7=namereg2.test(document.getElementById("t10").value)
+                                    var namereg3=/\w/ 
+                                    var res8=namereg3.test(document.getElementById("t11").value);
+                                    
+                                    if (!res1 && !res && !res2)
+                                    {
+                                        alert("Enter vallid data");  
+                                    }
+                                    else
+                                    {
+                                        alert("Your form submitted successfully");
+                                    }
+
+                                    <a href="mailto:vijay1172004@gmail.com"></a>
+                                }
+
+			</script>
+	</head>
+	<body >
+		<form>
+             
+
+                <div class="top">
+                        <h2 style="position: relative; top : 12px ; left : 35%; color : white"> Contact Us </h2>
+                </div>
+
+                <div class="main">
+
+
+                        <h3 style="position: relative; top : 50px ; left : 100px; color : white" >  Enter Your Name  </h3>
+                        <input type="text" id="t1" style="position: relative; top : 50px ; left : 200px;border-radius: 8px" > <br>
+                    
+                        <h3 style="position: relative; top : 50px ; left : 100px ; color : white">  Enter Your Email  </h3>  
+                        <input type="text" id="t6" style="position: relative; top : 50px ; left : 200px;border-radius: 8px" > <br>
+                        
+                        <h3 style="position: relative; top : 50px ; left : 100px; color : white">  Enter Message  </h3>
+                        <textarea placeholder="  Enter Your Message" id="t11" col="50" rows="3"  style="position: relative; top : 50px ; left : 200px;border-radius: 8px"></textarea><br>
+                      
+                        <input type="button" value="Submit" id="b1" onclick="check()" style="position: relative; top : 65px ; left : 250px; width:90px; height: 30px;border-radius: 8px" >
+          
+                        
+                </div>
+		</form>
+
+	</body>
+</html>
